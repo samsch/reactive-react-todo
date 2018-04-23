@@ -6,7 +6,6 @@
   "dependencies": {
     "kefir": "^3.8.3",
     "kefir.atom": "^5.5.0",
-    "parcel-bundler": "^1.7.1",
     "ramda": "^0.25.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
@@ -14,9 +13,11 @@
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "parcel-bundler": "^1.7.1"
   },
   "scripts": {
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samuel Scheidierich",
